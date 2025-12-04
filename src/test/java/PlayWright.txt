@@ -1,0 +1,29 @@
+1. Playwright là gì?
+
+Framework end-to-end testing cho web.
+
+Hỗ trợ:
+
+Chrome / Edge (Chromium)
+
+Firefox
+
+WebKit (Safari)
+
+Viết test bằng:
+
+TypeScript / JavaScript
+
+Python
+
+Java
+
+.NET (C#)
+
+Điểm mạnh:
+
+Tự handle wait rất thông minh (auto-wait element visible, enabled…).
+
+Dễ chạy headless / headed (ẩn / hiện browser).
+
+Hỗ trợ record script từ thao tác tay → sinh code test.

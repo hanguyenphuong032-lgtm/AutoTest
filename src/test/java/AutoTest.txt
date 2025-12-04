@@ -1,0 +1,63 @@
+1. Automation Test là gì?
+
+Automation Test (kiểm thử tự động) là hình thức dùng tool + code để chạy test tự động, thay vì con người click tay từng bước như Manual Test.
+
+Ví dụ:
+
+Tự động mở web
+
+Tự nhập username/password
+
+Tự bấm nút login
+
+Tự kiểm tra kết quả đúng/sai
+
+Các tool phổ biến:
+
+Selenium
+
+Playwright
+
+Cypress
+
+✅ 2. Tại sao cần Auto Test? (Lợi ích)
+Lý do				Giải thích
+⏱ Tiết kiệm thời gian	1 kịch bản chạy trong vài phút
+🔁 Chạy lặp lại không mệt	Chạy 100–1000 lần cũng được
+✅ Giảm lỗi do con người	Máy chạy đúng 100% theo code
+🚀 Tăng tốc release	Mỗi lần deploy đều chạy lại test
+📈 Phù hợp Regression Test	Test lại các chức năng cũ
+
+👉 Manual Test = kiểm tra lần đầu
+👉 Auto Test = kiểm tra lặp lại, regression
+
+✅ 3. Khi nào cần chạy kịch bản Auto Test?
+
+Auto test thường được chạy khi:
+
+🔧 Sau khi Dev sửa bug
+→ Để kiểm tra bug đã hết và không làm hỏng chức năng khác.
+
+🚀 Trước khi release version
+→ Chạy toàn bộ regression test.
+
+🔁 Khi có build mới (CI/CD)
+→ Tự động chạy mỗi lần có code mới.
+
+🔄 Test các nghiệp vụ lặp đi lặp lại
+
+Login
+
+Tạo đơn hàng
+
+Thanh toán
+
+CRUD dữ liệu
+
+❌ Không nên auto khi:
+
+Chức năng còn thay đổi liên tục
+
+UI chưa ổn định
+
+Yêu cầu chưa rõ
